@@ -1,0 +1,31 @@
+{
+  "name": "meita/saudi-banks",
+  "description": "Saudi banks IBAN identifier lookup with Arabic and English names.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Meita\\SaudiBanks\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "authors": [
+    {
+      "name": "Meita",
+      "email": "dev@meita.example"
+    }
+  ],
+  "keywords": [
+    "saudi",
+    "iban",
+    "banks",
+    "lookup",
+    "ksa"
+  ],
+  "minimum-stability": "stable"
+}
